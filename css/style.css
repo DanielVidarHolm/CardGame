@@ -1,0 +1,53 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+h1 {
+  text-align:center;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+.container{
+  display:flex;
+  flex-flow: column nowrap;
+  align-items:center;
+  justify-content:middle;
+  width:1000px;
+  height:600px;
+  margin:0 auto;
+  background-color:green;
+}
+#midSection{
+  display:flex;
+  flex-grow:2;
+  align-items:center;
+  gap:5px;
+}
+.block {
+  display:flex;
+  gap:5px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.card{
+  display:inline-block;
+  width:100px;
+  height:150px;
+  
+  
+}
+.card > img {
+  display:block;
+  width:100%;
+  margin:auto;
+  
+  
+  
+}
